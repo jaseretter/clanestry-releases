@@ -14,7 +14,7 @@ Most family tree programs ask you to type in facts. Clanestry asks you to show y
 
 - **Sources** are the records you found: a birth certificate, a census page, a headstone photo, a letter from an aunt.
 - **Evidence** is what a source actually says.
-- **Claims** are the conclusions you draw, such as "Mary Hansen was born in 1872 in Dunedin". Each claim is linked to the evidence that supports or contradicts it, and carries a confidence level: *confirmed*, *likely*, *possible*, *unknown* or *disproved*.
+- **Claims** are the conclusions you draw, such as "Mary Smith was born in 1872 in Dunedin". Each claim is linked to the evidence that supports or contradicts it, and carries a confidence level: *confirmed*, *likely*, *possible*, *unknown* or *disproved*.
 
 The family tree, timelines and reports are built from those claims. So when two records disagree, both stay on file, you can see why you believe what you believe, and anyone you share the research with can check it.
 
@@ -55,10 +55,12 @@ To get going quickly, you can load a small example family from the welcome scree
 Your research is stored on your computer in:
 
 ```
-%APPDATA%\RetterGenealogy
+%APPDATA%\FamilyHistoryResearch
 ```
 
 (Paste that into the File Explorer address bar to open it.) It holds the database, the scans and photos you attach, and any safety backups.
+
+If you installed an early version, your research was kept in a different folder. The first time a newer version opens, it moves everything into this one for you.
 
 This folder is separate from the program. Updating or even uninstalling Clanestry does not delete it.
 
@@ -66,16 +68,16 @@ This folder is separate from the program. Updating or even uninstalling Clanestr
 
 ## Updating
 
-Clanestry checks for a new version when it opens, and you can check any time from **Settings → Updates**. It always asks before downloading, and again before installing. Before it installs, it saves a safety backup of your research to `%APPDATA%\RetterGenealogy\backups`, then closes, updates and reopens.
+Clanestry checks for a new version when it opens, and you can check any time from **Settings → Updates**. It always asks before downloading, and again before installing. Before it installs, it saves a safety backup of your research to `%APPDATA%\FamilyHistoryResearch\backups`, then closes, updates and reopens.
 
 You can turn the automatic check off in Settings. You can also update by hand: download the newest installer from the [releases page](https://github.com/jaseretter/clanestry-releases/releases) and run it over the top of the old one. Your research is kept.
 
 ## Uninstalling
 
-Use **Settings → Apps → Installed apps** in Windows, find Clanestry and choose **Uninstall**. Your research folder is left in place; delete `%APPDATA%\RetterGenealogy` yourself if you really want it gone (make a backup first).
+Use **Settings → Apps → Installed apps** in Windows, find Clanestry and choose **Uninstall**. Your research folder is left in place; delete `%APPDATA%\FamilyHistoryResearch` yourself if you really want it gone (make a backup first).
 
 ## Questions and problems
 
-Clanestry is a family project by Jason Retter, built for researching the Hansen, Gardiner, Retter and Chapman families in New Zealand. If something goes wrong or you have an idea, get in touch with Jason directly.
+Clanestry is a family history project by Jason Retter. Clanestry is a working name and may change in a future version; your data won't be affected.
 
-*Clanestry is a working name and may change in a future version. Your data won't be affected.*
+If something goes wrong or you have an idea, get in touch with Jason.
